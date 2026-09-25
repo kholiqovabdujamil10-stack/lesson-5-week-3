@@ -114,24 +114,18 @@
 #         pass
 # class CardPayment(PaymentMethod):
 #     def pay(self, amount):
-#         if amount > 0:
 #             print(f"Card payment: {amount}")
 #     def refund(self, amount):
-#         if amount > 0:
 #             print(f"Card refund: {amount}")
 # class CashPayment(PaymentMethod):
 #     def pay(self, amount):
-#         if amount > 0:
 #             print(f"Cash payment: {amount}")
 #     def refund(self, amount):
-#         if amount > 0:
 #             print(f"Cash refund: {amount}")
 # class CryptoPayment(PaymentMethod):
 #     def pay(self, amount):
-#         if amount > 0:
 #             print(f"Crypto payment: {amount}")
 #     def refund(self, amount):
-#         if amount > 0:
 #             print(f"Crypto refund: {amount}")
 # def process_payment(method, amount):
 #     method.pay(amount)
@@ -192,4 +186,4 @@
 # print(f"DJ count: {len(dj)}")
 
 
-10
+# 10
